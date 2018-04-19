@@ -11,7 +11,7 @@ public class DividerTest {
 
 	@Test
 	public void test() {
-		divider = new divider();
+		divider = new Divider();
 		int expectedValue = 3;
 		int actualValue = divider.divide(9,3);
 		Assert.assertEquals(expectedValue, actualValue);

@@ -3,8 +3,7 @@ package com.qa.calculator;
 public class Multiplier {
 
 	public int multiply(int num1, int num2) {
-		int answer = num1 * num2;
-		return answer;
+		return num1 * num2;
 	}
 
 }

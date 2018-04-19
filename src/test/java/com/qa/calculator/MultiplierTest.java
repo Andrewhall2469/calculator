@@ -13,7 +13,7 @@ public class MultiplierTest {
 	public void test() {
 		multiplier = new Multiplier();
 		int expectedValue = 16;
-		int actualValue = multiplier.subtract(4,4);
+		int actualValue = multiplier.multiply(4,4);
 		Assert.assertEquals(expectedValue, actualValue);
 	}
 
